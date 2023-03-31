@@ -1,0 +1,1 @@
+{"name":"George","age":20,"address":"123 Washington street, Kolhapur","profession":"Doctor","savings":"3000$"}
