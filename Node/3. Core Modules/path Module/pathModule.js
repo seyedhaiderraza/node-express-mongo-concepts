@@ -1,5 +1,10 @@
 const path = require('path')
 
+const path = require('path')
+
+let staticPath = __dirname
+staticPath = path.join(staticPath, '../public')
+console.log(staticPath);
 console.log(path.dirname('D:/study/code repositories/Node Express Mongo/node-express-mongo-concepts/3. Core Modules/path Module/pathModule.js'));
 
 console.log(path.extname('D:/study/code repositories/Node Express Mongo/node-express-mongo-concepts/3. Core Modules/path Module/pathModule.js'));
